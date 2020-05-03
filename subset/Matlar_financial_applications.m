@@ -51,7 +51,7 @@ xlable('xtitle'),  %% '\beta', '\sigma';
 ylable('ytitle'),
 title('title'),      
 title(['Value at risk = ' num2str(Value)]);
-title(['title in ' char(number)]), %% char(163)=£, char(36)=$; use[] to combine string into title,
+title(['title in ' char(number)]), %% char(163)=Â£, char(36)=$; use[] to combine string into title,
 
 legend('y=x','location','best'), %% southwest, north etc.,
 
